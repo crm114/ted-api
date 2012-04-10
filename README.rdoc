@@ -3,11 +3,11 @@
 A Ruby wrapper for the TEDTalks API.
 
 == Usage
-API Documentation: http://labs.ted.com/?page_id=14
 
-Example:
-ted = Ted::API.new(API_KEY)
-talks = ted.talks(limit:25)
+API Documentation :: http://labs.ted.com/?page_id=14
+ 
+  ted = Ted::API.new(API_KEY)
+  talks = ted.talks(limit:25)
 
 == Contributing to ted-api
  
